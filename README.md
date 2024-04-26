@@ -29,7 +29,7 @@ Ini memerlukan koneksi internet. Composer akan menginstall dependency paket dari
     DB_USERNAME=root
     DB_PASSWORD=
 ```
-6. Impor file databes ke aplikasi database MySQL. file SQL ada di dalam folder aplikasi dengan nama 'pariwisata.sql'
+6. Impor file databes ke aplikasi database MySQL. file SQL ada di dalam folder aplikasi dengan nama 'pariwisata.sql'.
 5. Aplikasi bisa dijalankan melalui terminal dengan perintah
 ```
 php artisan serve
