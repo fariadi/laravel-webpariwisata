@@ -2,7 +2,7 @@
 
 1. Memiliki CLI/Command Line Interface berupa Command Prompt (CMD) atau Power Shell atau Git Bash (selanjutnya kita sebut terminal).
 2. Memiliki Web Server (misal XAMPP) dengan PHP versi 8.1
-3. Memiliki aplikasi Composer yang sudah ter-install, cek dengan perintah composer -V melalui terminal.
+3. Memiliki aplikasi Composer yang sudah ter-install, cek dengan perintah ``composer -V`` melalui terminal.
 4. Memiliki koneksi internet (untuk proses installasi).
 
 ## Langkah langkah instalasi aplikasi
