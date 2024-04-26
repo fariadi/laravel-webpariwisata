@@ -16,6 +16,7 @@ git clone https://github.com/fariadi/pariwisata.git
 cd c:/xampp/htdocs/pariwisata
 ```
 4. (Sesuai petunjuk installasi) Pada terminal, berikan perintah
+
 ```
 composer install
 ```
@@ -33,7 +34,7 @@ composer install
 ```
 php artisan serve
 ```
-dan di akses melalui http://localhost:8000/ atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal http://localhost/pariwisata/public/
+   dan di akses melalui http://localhost:8000/ atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal http://localhost/pariwisata/public/
 
 8. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>crud</b>.
 9. Duplikat file .env.example, lalu rename menjadi .env.
