@@ -16,25 +16,24 @@ git clone https://github.com/fariadi/pariwisata.git
 cd c:/xampp/htdocs/pariwisata
 ```
 4. (Sesuai petunjuk installasi) Pada terminal, berikan perintah
-
 ```
 composer install
 ```
 5. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 ```
-    DB_CONNECTION=mysql
-    DB_HOST=localhost
-    DB_PORT=3306
-    DB_DATABASE=pariwisata
-    DB_USERNAME=root
-    DB_PASSWORD=
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=pariwisata
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 6. Impor file databes ke aplikasi database MySQL. file SQL ada di dalam folder aplikasi dengan nama 'pariwisata.sql'.
 7. Aplikasi bisa dijalankan melalui terminal dengan perintah
 ```
 php artisan serve
 ```
-   dan di akses melalui http://localhost:8000/ atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal http://localhost/pariwisata/public/
+``dan di akses melalui http://localhost:8000/ atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal http://localhost/pariwisata/public/``
 
 8. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>crud</b>.
 9. Duplikat file .env.example, lalu rename menjadi .env.
