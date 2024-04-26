@@ -31,14 +31,14 @@ ini memerlukan koneksi internet. Composer akan menginstall dependency paket dari
     DB_PASSWORD=
 ```
 6. Impor file databes ke aplikasi database MySQL. file SQL ada di dalam folder aplikasi dengan nama 'pariwisata.sql'.
-5. Aplikasi bisa dijalankan melalui terminal dengan perintah
+7. Aplikasi bisa dijalankan melalui terminal dengan perintah
 ```
 php artisan serve
 ```
 dan di akses melalui http://localhost:8000/ atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal http://localhost/pariwisata/public/
 
-7. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>crud</b>.
-8. Duplikat file .env.example, lalu rename menjadi .env.
-9. Kembali ke terminal, php artisan key:generate.
+8. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>crud</b>.
+9. Duplikat file .env.example, lalu rename menjadi .env.
+10. Kembali ke terminal, php artisan key:generate.
 11. Jika hanya ingin membuat tabel, jalankan perintah <b>php artisan migrate</b>. Cek di phpmyadmin, seharusnya tabel sudah muncul.
 12. Setelah selesai, Jalankan perintah <b>php artisan serve</b> maka dapat diakses dengan http://localhost:8000/
