@@ -19,7 +19,8 @@ cd c:/xampp/htdocs/pariwisata
 ```
 composer install
 ```
-Ini memerlukan koneksi internet. Composer akan menginstall dependency paket dari source code tersebut hingga selesai.
+
+Ini memerlukan koneksi internet. Composer akan menginstall dependency paket dari source code tersebut hingga selesai
 5. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 ```
     DB_CONNECTION=mysql
