@@ -6,12 +6,15 @@
 5. Memiliki koneksi internet (untuk proses installasi).
 
 ## Langkah langkah instalasi aplikasi
-1. Clone repository, bisa di download .zip atau dengan perintah git clone seperti ini
+1. Clone repository, bisa di download ``.zip`` atau dengan perintah ``git clone`` pada Command Prompt seperti ini
 ```
 git clone https://github.com/fariadi/pariwisata.git
 ```
-2. Extract file zip (source code) ke dalam direktori htdocs pada XAMPP, misal ``C:/xampp/htdocs/pariwisata``.
-3. Melalui terminal, masuk ke direktori aplikasi misal contohnya
+
+<img src="https://i.ibb.co/17ntM78/Screenshot-9.png" >
+
+>Jika dalam bentuk zip hasil download Extract file zip (source code) ke dalam direktori htdocs pada XAMPP, misal ``C:/xampp/htdocs/pariwisata``.
+4. Melalui terminal, masuk ke direktori aplikasi misal contohnya
 ```
 cd c:/xampp/htdocs/pariwisata
 ```
@@ -19,6 +22,8 @@ cd c:/xampp/htdocs/pariwisata
 ```
 composer install
 ```
+<img src="https://i.ibb.co/0jK44bg/Screenshot-10.png"  border="0">
+
 > Ini memerlukan koneksi internet. Composer akan menginstall dependency paket dari source code tersebut hingga selesai
 5. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 ```
@@ -34,5 +39,7 @@ DB_PASSWORD=
 ```
 php artisan serve
 ```
+<img src="https://i.ibb.co/1qY5hpx/Screenshot-11.png" alt="Screenshot-11" border="0">
+
 >jika berhasil aplikasi dapat di jalan di browswer dengan alamat ``http://localhost:8000/`` <br/>
 atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal ``http://localhost/pariwisata/public/``
