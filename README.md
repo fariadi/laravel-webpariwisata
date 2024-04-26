@@ -36,9 +36,3 @@ php artisan serve
 ```
 >jika berhasil aplikasi dapat di jalan di browswer dengan alamat ``http://localhost:8000/`` <br/>
 atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal ``http://localhost/pariwisata/public/``
-
-8. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>crud</b>.
-9. Duplikat file .env.example, lalu rename menjadi .env.
-10. Kembali ke terminal, php artisan key:generate.
-11. Jika hanya ingin membuat tabel, jalankan perintah <b>php artisan migrate</b>. Cek di phpmyadmin, seharusnya tabel sudah muncul.
-12. Setelah selesai, Jalankan perintah <b>php artisan serve</b> maka dapat diakses dengan http://localhost:8000/
