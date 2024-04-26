@@ -19,6 +19,7 @@ cd c:/xampp/htdocs/pariwisata
 ```
 composer install
 ```
+> Ini memerlukan koneksi internet. Composer akan menginstall dependency paket dari source code tersebut hingga selesai
 5. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 ```
 DB_CONNECTION=mysql
@@ -33,7 +34,8 @@ DB_PASSWORD=
 ```
 php artisan serve
 ```
-``dan di akses melalui http://localhost:8000/ atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal http://localhost/pariwisata/public/``
+>jika berhasil aplikasi dapat di jalan di browswer dengan alamat ``http://localhost:8000/`` <br/>
+atau jika menggunakan aplikasi XAMPP dengan mamasukan url misal ``http://localhost/pariwisata/public/``
 
 8. Buat database baru (kosong) pada mysql (via phpmyadmin) dengan nama <b>crud</b>.
 9. Duplikat file .env.example, lalu rename menjadi .env.
