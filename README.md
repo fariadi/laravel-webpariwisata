@@ -22,12 +22,12 @@ composer install
 Ini memerlukan koneksi internet. Composer akan menginstall dependency paket dari source code tersebut hingga selesai.
 5. Setting koneksi database di file .env (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
 ```
-    <br>DB_CONNECTION=mysql
-    <br>DB_HOST=localhost
-    <br>DB_PORT=3306
-    <br>DB_DATABASE=pariwisata
-    <br>DB_USERNAME=root
-    <br>DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=localhost
+    DB_PORT=3306
+    DB_DATABASE=pariwisata
+    DB_USERNAME=root
+    DB_PASSWORD=
 ```
 6. Impor file databes ke aplikasi database MySQL. file SQL ada di dalam folder aplikasi dengan nama 'pariwisata.sql'
 5. Aplikasi bisa dijalankan melalui terminal dengan perintah
