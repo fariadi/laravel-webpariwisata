@@ -1,16 +1,16 @@
 ## Persiapan Aplikasi
 
 1. Memiliki CLI/Command Line Interface berupa Command Prompt (CMD) atau Power Shell atau Git Bash (selanjutnya kita sebut terminal).
-2. Memiliki Web Server (misal XAMPP) dengan PHP versi 8.1
-3. Memiliki aplikasi Composer yang sudah ter-install, cek dengan perintah ``composer -V`` melalui terminal.
-4. Memiliki koneksi internet (untuk proses installasi).
+2. Memiliki Web Server (misal XAMPP) dengan PHP versi 8.1 dan Database MySQL
+4. Memiliki aplikasi Composer yang sudah ter-install, cek dengan perintah ``composer -V`` melalui terminal.
+5. Memiliki koneksi internet (untuk proses installasi).
 
 ## Langkah langkah instalasi aplikasi
 1. Clone repository, bisa di download .zip atau dengan perintah git clone seperti ini
 ```
 git clone https://github.com/fariadi/pariwisata.git
 ```
-2. Extract file zip (source code) ke dalam direktori htdocs pada XAMPP, misal htdocs/pariwisata.
+2. Extract file zip (source code) ke dalam direktori htdocs pada XAMPP, misal ``C:/xampp/htdocs/pariwisata``.
 3. Melalui terminal, masuk ke direktori aplikasi misal contohnya
 ```
 cd c:/xampp/htdocs/pariwisata
@@ -29,7 +29,7 @@ DB_DATABASE=pariwisata
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-6. Impor file databes ke aplikasi database MySQL. file SQL ada di dalam folder aplikasi dengan nama 'pariwisata.sql'.
+6. Impor file databes ke aplikasi database MySQL. file SQL ada di dalam folder aplikasi dengan nama ``pariwisata.sql``.
 7. Aplikasi bisa dijalankan melalui terminal dengan perintah
 ```
 php artisan serve
