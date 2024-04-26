@@ -5,7 +5,7 @@
 3. Memiliki aplikasi Composer yang sudah ter-install, cek dengan perintah composer -V melalui terminal.
 4. Memiliki koneksi internet (untuk proses installasi).
 
-## Cara Instalsi Aplikasi
+## Langkah langkah instalasi aplikasi
 1. Clone repository, bisa di download .zip atau dengan perintah git clone seperti ini
 ```
 git clone https://github.com/fariadi/pariwisata.git
